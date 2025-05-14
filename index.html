@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,77 +8,99 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Porfolio</title>
 </head>
+
 <body>
-    <section class="home" id="home">
-        <header class="header">
-            <a href="index.html" class="logo">Steve</a>
+    <header class="header">
+        <a href="index.html" class="logo">Steve</a>
 
-            <input type="checkbox" name="" id="check">
+        <input type="checkbox" name="" id="check">
 
-            <label for="check" class="icons">
-                <i class='bx bx-menu' id="menu-icon"></i>
-                <i class='bx bx-x' id="close-icon"></i>
-            </label>
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
 
-            <nav class="navbar">
-                <a href="#home" style="--i:0;">Home</a>
-                <a href="" style="--i:1;">About</a>
-                <a href="" style="--i:2;">Experience</a>
-                <a href="" style="--i:3;">Projects</a>
-                <a href="#contact" style="--i:4;">Contact</a>
-            </nav>
-        </header>
+        <nav class="navbar">
+            <a href="#home" style="--i:0;">Home</a>
+            <a href="" style="--i:1;">About</a>
+            <a href="#skills" style="--i:2;">Skills</a>
+            <a href="" style="--i:3;">Projects</a>
+            <a href="#contact" style="--i:4;">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+       
+
+        <div class="content"> 
+            <div class="profile-img">
+            <img src="images/profile.jpg" alt="profile">
+        </div>
+            <h3>Hello, I'm</h3>
+            <h1>Steve Samji</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I’m a passionate Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and modern
+                frameworks like React. I specialize
+                in building responsive, user-friendly web interfaces that focus on both functionality and design.</p>
+
+            <div class="social-media">
+                <a href="https://github.com/Fasty-codes" id="git"><i class='bx bxl-github'></i></a>
+                <a href="https:youtube.com/@Dona_editz_2.0" id="youtube"><i class='bx bxl-youtube'></i></a>
+            </div>
+            
+            <a href="#about" class="btn">More About Me</a>
+        </div>   
     </section>
 
     <section id="skills" class="skills">
         <div class="container">
             <h1 class="title">My Skills</h1>
-        <div class="box">
-            <p><span>HTML</span><span>90%</span></p>
-            <div class="progress_box">
-                <div class="progress" id="html"></div>
+            <div class="box">
+                <p><span>HTML</span><span>90%</span></p>
+                <div class="progress_box">
+                    <div class="progress" id="html"></div>
+                </div>
             </div>
-        </div>
-        <div class="box">
-            <p><span>CSS</span><span>79%</span></p>
-            <div class="progress_box">
-                <div class="progress" id="css"></div>
+            <div class="box">
+                <p><span>CSS</span><span>79%</span></p>
+                <div class="progress_box">
+                    <div class="progress" id="css"></div>
+                </div>
             </div>
-        </div>
-        <div class="box">
-            <p><span>Javascript</span><span>55%</span></p>
-            <div class="progress_box">
-                <div class="progress" id="js"></div>
+            <div class="box">
+                <p><span>Javascript</span><span>55%</span></p>
+                <div class="progress_box">
+                    <div class="progress" id="js"></div>
+                </div>
             </div>
-        </div>
-        <div class="box">
-            <p><span>SASS</span><span>74%</span></p>
-            <div class="progress_box">
-                <div class="progress" id="sass"></div>
+            <div class="box">
+                <p><span>SASS</span><span>74%</span></p>
+                <div class="progress_box">
+                    <div class="progress" id="sass"></div>
+                </div>
             </div>
-        </div>
         </div>
 
         <div class="container">
             <h1 class="title">Pro Skills</h1>
             <div class="box">
-            <p><span>Problem Solving</span><span>65%</span></p>
-            <div class="progress_box">
-                <div class="progress" id="prob-sol"></div>
+                <p><span>Problem Solving</span><span>65%</span></p>
+                <div class="progress_box">
+                    <div class="progress" id="prob-sol"></div>
+                </div>
             </div>
-        </div>
-        <div class="box">
-            <p><span>Teamwork</span><span>45%</span></p>
-            <div class="progress_box">
-                <div class="progress" id="team"></div>
+            <div class="box">
+                <p><span>Teamwork</span><span>45%</span></p>
+                <div class="progress_box">
+                    <div class="progress" id="team"></div>
+                </div>
             </div>
-        </div>
-        <div class="box">
-            <p><span>Creativity</span><span>75%</span></p>
-            <div class="progress_box">
-                <div class="progress" id="creative"></div>
+            <div class="box">
+                <p><span>Creativity</span><span>75%</span></p>
+                <div class="progress_box">
+                    <div class="progress" id="creative"></div>
+                </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -106,4 +129,5 @@
         </div>
     </div>
 </body>
+
 </html>
