@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 * {
@@ -87,7 +88,7 @@ html {
     border-bottom: 1px solid #fff;
     display: flex;
     justify-content: center;
-    color: #fff;
+    color: #ffffff;
     align-items: center;
     height: 200vh;
 }
@@ -314,7 +315,70 @@ html {
 .progress_box #creative {
     background-color: #ff0000;
     width: 75%;
+}   
+
+.projects {
+    background: #0f1718;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    color: #000;
+} 
+
+.projects h1{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #fff;
 }
+
+.projects .card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.projects .card-container .card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .0.2);
+    margin: 20px;
+}
+
+.projects .card-container .card img{
+    width: 100%;
+    height: auto;
+}
+
+.projects .card .card-content{
+    padding: 16px;
+}
+
+.projects .card .card-content h3{
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.projects .card .card-content p{
+    font-size: 15px;
+    color: #666;
+    line-height: 1.3;
+}
+
+.projects .card .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 16px;
+    color: #fff;
+    font-weight: 600;
+} 
 
 .contact-form {
     position: relative;

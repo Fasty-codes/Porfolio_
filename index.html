@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <title>Porfolio</title>
 </head>
 
@@ -38,7 +39,8 @@
             <h1>Steve Samji</h1>
             <h3>And I'm a <span class="text"></span></h3>
             <p>I’m a passionate Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and modern
-                frameworks like React. I specialize in building responsive, user-friendly web interfaces that focus on both functionality and design.</p>
+                frameworks like React. I specialize in building responsive, user-friendly web interfaces that focus on
+                both functionality and design.</p>
 
             <div class="social-media">
                 <a href="https://github.com/Fasty-codes" id="git"><i class='bx bxl-github'></i></a>
@@ -52,15 +54,21 @@
     <section id="about" class="about">
         <h1>About Me</h1>
         <h3>Front-End Developer !</h3>
-        <p>I'm a front-end developer with 1 year experience. I was learned coding from Steyp. Steyp was introduced to me by my school. I was joined in the "tech@school"
-            program. I started learning from June, 2024 and completed the course in November, 2024. I have only one more Reat-Native project to complete the lesson. I am 
-            now working for it.It was a great journey and mostly I was skilled in front-end developing with HTML, CSS, JS, and SASS. 
+        <p>I'm a front-end developer with 1 year experience. I was learned coding from Steyp. Steyp was introduced to me
+            by my school. I was joined in the "tech@school"
+            program. I started learning from June, 2024 and completed the course in November, 2024. I have only one more
+            Reat-Native project to complete the lesson. I am
+            now working for it.It was a great journey and mostly I was skilled in front-end developing with HTML, CSS,
+            JS, and SASS.
         </p>
 
         <h1 class="title">My Experience with <span>Steyp</span></h1>
-        <p class="desc">It was best to learn coding from Steyp. I loved to learn Computer engineering from my 2nd std. And then, in my 7th std steyp was introduced to me. I learned
-            coding from June, 2024. I completed front end and started backend in September, 2024. And I continued learning coding and final November, 202. I completed
-            the course by completeing the syllabus Mobile App Development. And I have only the final React-native project. And I am now working </p>
+        <p class="desc">It was best to learn coding from Steyp. I loved to learn Computer engineering from my 2nd std.
+            And then, in my 7th std steyp was introduced to me. I learned
+            coding from June, 2024. I completed front end and started backend in September, 2024. And I continued
+            learning coding and final November, 202. I completed
+            the course by completeing the syllabus Mobile App Development. And I have only the final React-native
+            project. And I am now working </p>
     </section>
 
     <section id="skills" class="skills">
@@ -115,6 +123,46 @@
         </div>
     </section>
 
+    <section class="projects">
+        <h1>Projects</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/ocean.jpg" alt="Ocean">
+                <div class="card-content">
+                    <h3>Deep Ocean Mysteries - Hibix</h3>
+                    <p>This is a website built by me for discussing about the various Deep Ocean Mysteries. It is very Animative and Interactive for the users. It has 7
+                        pages discussing about the 7 different ocean mysteries.
+                    </p>
+                    <a href="https://github.com/Fasty-codes/Hibix" class="btn">Live Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/education.jpg" alt="Education">
+                <div class="card-content">
+                    <h3>Words</h3>
+                    <p>This is a website for educational purpose. It is used to learn different topics such as Cubing,
+                        Coding, Storywriting
+                        and Origami. It has some mini games and some mini apps for fun. It is developed with only
+                        frontend.
+                    </p>
+                    <a href="https://github.com/Fasty-codes/Words" class="btn">Live Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/rubiks-cube.jpg" alt="rubiks-cube">
+                <div class="card-content">
+                    <h3>CubeCraze</h3>
+                    <p>This is a website created by me for learn cubing in both english and malayalam languages. This
+                        idea was created by
+                        me and my friends. This is built by front end only. This website is not free to use, just need
+                        to signup and then login.
+                    </p>
+                    <a href="https://github.com/Fasty-codes/CubeCraze" class="btn">Live Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div class="contact-form" id="contact">
         <h1>Contact Me</h1>
         <div class="container">
@@ -139,6 +187,16 @@
             </div>
         </div>
     </div>
+
+    <script>
+    var typed = new Typed('.text', {
+      strings: ["FrontEnd Dev", "Cuber", "Youtuber"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop:true,
+    });
+  </script>
 </body>
 
 </html>
